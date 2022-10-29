@@ -904,6 +904,25 @@ Categories & Collections Style
   font-size: 20px;
 }
 
+.progress-wrapper{
+  height: 8px;
+  width: 100%;
+  background:#3f3f41;
+  border-radius: 2px;
+  /*  */
+}
+.progress-tokenomic{
+  width:0%;
+  transition: width 1s;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.tokenomics div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .collections .item span.category {
   text-align: right;
 }
@@ -970,7 +989,7 @@ Create NFT Style
 */
 
 .create-nft {
-  background-image: url(../images/main-bg.jpg);
+  background-image: url(../images/dark-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
