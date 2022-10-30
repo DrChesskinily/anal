@@ -1225,8 +1225,8 @@ Footer Style
 */
 
 footer {
-  background: rgb(125,90,254);
-  background: linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%);
+  background: #F2BD2E;
+  background: linear-gradient(132deg, #F2BD2E 25%, #FFBA5B 100%);
   text-align: center;
   padding: 25px 0px;
 }
