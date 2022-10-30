@@ -66,6 +66,11 @@ ul, li {
   padding: 0;
   margin: 0;
   list-style: none;
+  color:white;
+}
+
+li{
+  margin-left: 5px;
 }
 
 header, nav, section, article, aside, footer, hgroup {
@@ -838,11 +843,11 @@ Categories & Collections Style
 
 .categories .item {
   display:flex;
-  align-items:center;
-  justify-content:center;
+  /* align-items:center; */
+  /* justify-content:center; */
   background-color: #282b2f;
-  text-align: center;
-  padding: 30px;
+  /* text-align: center; */
+  padding: 10px;
   border-radius: 20px;
   border: 1px solid #404245;
   position: relative;
@@ -861,6 +866,16 @@ Categories & Collections Style
 
 .collections {
   margin-top: 140px;
+}
+
+li::marker{
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+  list-style-position: inside;
 }
 
 .collections .item img {
@@ -884,9 +899,10 @@ Categories & Collections Style
 }
 
 .rowc{
+  margin-top: 20px;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .collections .item {
@@ -1024,7 +1040,7 @@ Create NFT Style
 
 .create-nft .first-item:after {
   position: absolute;
-  width: 1px;
+  width: 1px;1
   height: 95%;
   background-color: rgba(255, 255, 255, 0.2);
   content: '';
