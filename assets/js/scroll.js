@@ -25,11 +25,11 @@ document.addEventListener("scroll", function () {
   }
   if (clientHeight > pg4.getBoundingClientRect().y + (pg4.getBoundingClientRect().height * 2) / 3) {
     pg4.style.width =
-      "4%";
+      "2%";
   }
   if (clientHeight > pg5.getBoundingClientRect().y + (pg5.getBoundingClientRect().height * 2) / 3) {
     pg5.style.width =
-      "6%";
+      "8%";
   }
   if (clientHeight > pg6.getBoundingClientRect().y + (pg6.getBoundingClientRect().height * 2) / 3) {
     pg6.style.width =
