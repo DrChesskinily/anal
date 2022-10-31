@@ -1038,7 +1038,7 @@ Create NFT Style
   top: -20px;
 }
 
-.create-nft .first-item:after {
+/* .create-nft .first-item:after {
   position: absolute;
   width: 1px;1
   height: 95%;
@@ -1046,7 +1046,7 @@ Create NFT Style
   content: '';
   right: 5px;
   top: 5%;
-}
+} */
 
 .create-nft .second-item .number {
   position: absolute;
